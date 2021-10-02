@@ -15,11 +15,7 @@ int main(){
         else if(i >= n) c[i] = b[i - n];
     }
 
-    for(int i = 0; i < n + m; i++){
-        for(int j = i + 1; j < n + m; j++){
-            if(c[i] > c[j]) swap(c[i], c[j]);
-        }
-    }
+    sort(c, c + (n + m));
 
     for(int i = 0; i < n + m; i++) cout << c[i] << " ";
 }

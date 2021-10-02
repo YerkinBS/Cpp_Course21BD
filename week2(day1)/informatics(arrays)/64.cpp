@@ -3,8 +3,9 @@ using namespace std;
 
 int main(){
     int n; cin >> n;
+    int arr[n];
     for(int i = 0; i < n; i++){
-        int x; cin >> x;
-        if(x % 2 == 0) cout << x << " ";
+        cin >> arr[i];
+        if(arr[i] % 2 == 0) cout << arr[i] << " ";
     }
 }
