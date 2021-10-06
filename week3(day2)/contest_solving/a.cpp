@@ -2,12 +2,21 @@
 using namespace std;
 
 int main(){
-    int n; cin >> n;
+    int n, m, x; cin >> n >> m >> x;
+    int arr[n][m];
     for(int i = 0; i < n; i++){
-        for(int j = 0; j < n; j++){
-            if(i == n - 1 || j == n - 1 || i + j == n - 1) cout << 1 << " ";
-            else cout << 0 << " ";
+        for(int j = 0; j < m; j++){
+            cin >> arr[i][j];
         }
-        cout << "\n";
     }
+
+    for(int i = 0; i < n; i++){
+        for(int j = 0; j < m; j++){
+            if(arr[i][j] == x){
+                cout << "YES";
+                return 0;
+            }
+        }
+    }
+    cout << "NO";
 }
