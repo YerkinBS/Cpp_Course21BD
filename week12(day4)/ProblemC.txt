@@ -1,0 +1,34 @@
+Submit a solution for C-194121. Destination.
+Full score: 100
+Time limit: 1 s
+Real time limit: 5 s
+Memory limit: 256M
+Problem C: 194121. Destination.
+You have an integer array numbers. Find the maximum difference between two successive elements in its sorted form.
+If the array contains less than two elements - print .
+
+Input format
+The first line contains integers , where .
+Second line contains array of size , where .
+
+Output format
+Output integer answer for the task.
+
+Examples
+Input
+5
+1 5 5 2 9
+Output
+4
+Input
+1
+11
+Output
+0
+Input
+5
+5 7 48 9 9
+Output
+39
+Notes
+You are not allowed to use sort() function.

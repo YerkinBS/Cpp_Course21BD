@@ -1,0 +1,29 @@
+Problem B: 194046. Agent Partner Finding.
+There a secret organization where produces jeweller products. In order to enter to the main office employees have to use password.
+Secret super agent saw that some employee entered to the office by 9 digit password. Super agent write down this digits quick and simultaneously.
+After some analysis he understand that there is only one rule for password: it have to be symmetric to the central digit in entered sequence. Now he
+wondered if this written combination is correct one. You have write a program to check if it’s possible to use this combination as a password.
+
+Input format
+The first line contains an array A of size , where .
+
+Output format
+Output YES if the password has correct format else NO.
+
+Examples
+Input
+1 2 3 4 5 4 3 2 1
+Output
+YES
+Input
+0 1 2 4 7 7 5 6 7
+Output
+NO
+Input
+7 7 7 7 7 7 7 7 7
+Output
+YES
+Input
+0 5 2 0 0 0 2 5 0
+Output
+YES

@@ -1,0 +1,21 @@
+Problem E: 195558. Queue Palindrome.
+You are given an integer . You have to check whether this number can used as palindrome string.
+
+Input format
+You are given a negative or positive integer , where .
+
+Output format
+Output YES if given can be used as palindrome string else NO.
+
+Examples
+Input
+121
+Output
+YES
+Input
+-121
+Output
+NO
+Notes
+Use queue or stack.
+ReplyForward
