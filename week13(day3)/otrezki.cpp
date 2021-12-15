@@ -22,7 +22,7 @@ int main(){
                 t = s.substr(i, j++);
                 if(check(t)){
                     cnt++;
-                    i += 4;
+                    i += j - 2;
                     ok = true;
                 }
             }
