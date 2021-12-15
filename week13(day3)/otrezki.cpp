@@ -16,14 +16,21 @@ int main(){
     int j = 5;
 
     int zero = 0, one = 0, cnt = 0;
-    for(int i = 0; i < s.size(); i++){
+    int i = 0;
+    while(i < s.size()){
+        bool ok = false;
         if(s[i] == '1'){
             j = 5;
             while(j <= s.size()){
                 t = s.substr(i, j++);
-                if(check(t)) cnt++;
+                if(check(t)){
+                    cnt++;
+                    i += 4;
+                    ok = true;
+                }
             }
         }
+        if(!ok) i++;
     }
     cout << cnt;
 }
