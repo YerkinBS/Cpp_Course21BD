@@ -13,10 +13,7 @@ bool check(string x){
 
 int main(){
     string s, t; getline(cin, s);
-    int j = 5;
-
-    int zero = 0, one = 0, cnt = 0;
-    int i = 0;
+    int i = 0, j, cnt = 0;
     while(i < s.size()){
         bool ok = false;
         if(s[i] == '1'){
